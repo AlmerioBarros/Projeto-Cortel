@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
+
+
+:root{
+    --font-paragrafo: 'Pacifico', cursive;
+    --font-titulo: 'Passion One', cursive;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 98vh;
+    width: auto;
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding: 20px 0px 30px 0px;
+
+}
+header>h1{
+    font-size: 7em;
+    font-family: var(--font-titulo);
+}
+header>p{
+    font-size: 2em;
+    padding: 5px;
+}
+header a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{  
+    background-color: white;
+    font-family: var(--font-paragrafo)
+
+}
+section{
+    padding: 20px 0px;
+
+    margin: 20px 0px ;
+}
+main div{
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+
+    max-width: 300px;
+    max-height: 800px;
+
+
+    padding: 10px;
+
+    margin: 20px 0px 20px 20px ;
+}
+.transparente{  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+
+}
+#img1{
+    background-image: url('../Arquivos/imagens/background001.jpg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img2{
+    background-image: url('../Arquivos/imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin: 10px;
+
+    border: 5px solid white;
+    border-radius: 10px;
+
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer  a:hover{
+    text-decoration: underline;
+}
