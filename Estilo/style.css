@@ -32,6 +32,7 @@ header{
 header>h1{
     font-size: 7em;
     font-family: var(--font-titulo);
+    font-variant: small-caps;
 }
 header>p{
     font-size: 2em;
@@ -105,7 +106,13 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+    
 }
 footer  a:hover{
     text-decoration: underline;
+
+}
+footer strong{
+    text-transform: uppercase;
+
 }
